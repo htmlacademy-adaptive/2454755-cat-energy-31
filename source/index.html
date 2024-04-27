@@ -11,10 +11,12 @@
 
 <body class="page__body">
   <header class="main-header">
-
-    <a class="main-header__logo" href="/">
-      <img class="main-header__logo-image" src="/" width="101" height="18" alt="Кот-энерджи"></a>
-
+    <div class="main-header__logo-wraper">
+      <a class="main-header__logo" href="/">
+        <img class=" logo-image" src="/" width="101" height="18" alt="Кот-энерджи"></a>
+      <a class="main-header__logo-text logo" href="/">
+        <img class="logo-text" src="/" width="101" height="18" alt="Кот-энерджи"></a>
+    </div>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
         <span class="visually-hidden">Открыть главное меню</span>
@@ -51,12 +53,12 @@
       <div class="catalog__wrapper slider">
         <h2 class="visually-hidden">Каталог продукции</h2>
         <ul class="catalog__list slider__list">
-          <li class="catalog__item--slim slider__item">
+          <li class=" catalog__item catalog__item--slim slider__item">
             <h3 class="catalog__title">Похудение</h3>
             <p class="catalog__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
             <a class="catalog__button-slim" href="catalog.html">Каталог slim</a>
           </li>
-          <li class="catalog__item--pro slider__item">
+          <li class="catalog__item catalog__item--pro slider__item">
             <h3 class="catalog__title">Набор массы</h3>
             <p class="catalog__description">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
             <a class="catalog__button-pro" href="catalog.html">Каталог slim</a>
@@ -68,23 +70,23 @@
       <div class="advantages__wraper">
         <h2 class="advantages__title">Как это работает</h2>
         <ul class="advantages__list">
-          <li class="advantages__item advanteges__item--icon-leaf">
+          <li class="advantages__item advantages__item--icon-leaf">
             <p class="advantages__text">Функциональное питание
               содержит только полезные
               питательные вещества.</p>
           </li>
-          <li class="advantages__item advanteges__item--icon-mixture">
+          <li class="advantages__item advantages__item--icon-mixture">
             <p class="advantages__text">Выпускается в виде порошка,
               который нужно лишь залить
               кипятком и готово.</p>
           </li>
-          <li class="advanteges__item advanteges__item--icon-eat">
-            <p class="advanteges__text">Замените один-два приема
+          <li class="advantages__item advantages__item--icon-eat">
+            <p class="advantages__text">Замените один-два приема
               обычной еды на наше
               функциональное питание.</p>
           </li>
-          <li class="advanteges__item advanteges__item--icon-period">
-            <p class="advanteges__text">Уже через месяц наслаждайтесь
+          <li class="advantages__item advantages__item--icon-period">
+            <p class="advantages__text">Уже через месяц наслаждайтесь
               изменениями к лучшему
               вашего питомца!</p>
           </li>
@@ -95,33 +97,33 @@
       <div class="example__wraper">
         <h3 class="example__title">Живой пример</h3>
         <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день</p>
-        <dl class="statistics__list">
-          <div class="statistics__item">
-            <dt class="statistics__number">5 кг</dt>
-            <dd class="statistics__description">Снижение веса</dd>
+        <dl class="example__statistics-list">
+          <div class="example__statistics-item">
+            <dt class="example__statistics-number">5 кг</dt>
+            <dd class="example__statistics-description">Снижение веса</dd>
           </div>
-          <div class="statistics__item">
-            <dt class="statistics__number">60 дней</dt>
-            <dd class="statistics__description">Затрачено времени</dd>
+          <div class="example__statistics-item">
+            <dt class="example__statistics-number">60 дней</dt>
+            <dd class="example__statistics-description">Затрачено времени</dd>
           </div>
-          <div class="statistics__item">
-            <dt class="statistics__number">15000 РУБ.</dt>
-            <dd class="statistics__description">Зфтраты на питание</dd>
+          <div class="example__statistics-item">
+            <dt class="example__statistics-number">15000 РУБ.</dt>
+            <dd class="example__statistics-description">Затраты на питание</dd>
           </div>
         </dl>
-        <div class="statistics__toggle slider">
-          <button class="statistics__toggle-left" type="button">
+        <div class="example__statistics-toggle slider">
+          <button class="example__statistics-toggle example__statistics-toggle--left" type="button">
             <span class="visually-hidden">Влево</span>
           </button>
-          <button class="statistics__toggle-right" type="button">
+          <button class="example__statistics-toggle example__statistics-toggle--right" type="button">
             <span class="visually-hidden">Вправо</span>
           </button>
         </div>
-        <div class="statistics__images">
-          <div class="statistics__images-before">
+        <div class="example__statistics-images">
+          <div class="example__statistics-images example__statistics-images--before">
             <img src="#" width="280" height="256" alt="Изображение толстого кота">
           </div>
-          <div class="statistics__images-after">
+          <div class="example__statistics-images example__statistics-images--after">
             <img src="#" width="280" height="256" alt="Изображение стройного кота">
           </div>
         </div>
