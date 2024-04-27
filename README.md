@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Ангелина Ройлян](https://up.htmlacademy.ru/adaptive/31/user/2454755).
-* Наставник: `Неизвестно`.
+* Наставник: `[Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya)`.
 
 ---
 
